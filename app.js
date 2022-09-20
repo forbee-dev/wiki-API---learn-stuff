@@ -105,7 +105,7 @@ app.route("/articles/:articleTitle")
             } else {
                 res.send(err)
             }
-        }
+        } 
     )
     
 })
